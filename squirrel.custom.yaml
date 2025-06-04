@@ -6,6 +6,7 @@ patch:
   style/color_scheme: mac_light
   # 深色主题
   style/color_scheme_dark: mac_dark
+  style/candidate_list_layout: linear
 
   # 皮肤主题
   preset_color_schemes:
@@ -145,7 +146,7 @@ patch:
 
     mac_blue:
       name: Mac浅蓝
-      horizontal: false              # true横排，false竖排
+      horizontal: true              # true横排，false竖排
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       font_face: "PingFangSC"                      # 候选词字体
@@ -293,7 +294,7 @@ patch:
 
     milan:
       name: 米兰
-      horizontal: false              # true横排，false竖排
+      horizontal: true              # true横排，false竖排
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
