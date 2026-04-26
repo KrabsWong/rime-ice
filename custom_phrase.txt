@@ -62,3 +62,6 @@ gone	gone
 Go程	gocheng
 code	code
 SOHO	soho
+
+# 个人自定义短语
+带带单打独斗的弟弟	ddddddddd	1
