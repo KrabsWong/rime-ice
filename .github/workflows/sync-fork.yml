@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Sync default branch from upstream
         id: sync
-        uses: KrabsWong/sync-fork-action@v1.2.6
+        uses: KrabsWong/sync-fork-action@v1.2.7
         with:
           token: ${{ github.token }}
           upstream-repository: iDvel/rime-ice
